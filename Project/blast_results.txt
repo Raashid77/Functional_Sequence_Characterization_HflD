@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_6177765</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>213</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_6177765</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>213</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_001297479.1|</Hit_id>
+  <Hit_def>MULTISPECIES: high frequency lysogenization protein HflD [Bacteria] &gt;ref|NP_415650.1| lysogenization regulator [Escherichia coli str. K-12 substr. MG1655] &gt;sp|A7ZKS2.1| RecName: Full=High frequency lysogenization protein HflD [Escherichia coli O139:H28 str. E24377A] &gt;sp|A7ZZ87.1| RecName: Full=High frequency lysogenization protein HflD [Escherichia coli HS] &gt;sp|B1IUD5.1| RecName: Full=High frequency lysogenization protein HflD [Escherichia coli ATCC 8739] &gt;sp|B1XA42.1| RecName: Full=High frequency lysogenization protein HflD [Escherichia coli str. K-12 substr. DH10B] &gt;sp|B6I9L1.1| RecName: Full=High frequency lysogenization protein HflD [Escherichia coli SE11] &gt;sp|B7LGR0.1| RecName: Full=High frequency lysogenization protein HflD [Escherichia coli 55989] &gt;sp|B7LSM7.1| RecName: Full=High frequency lysogenization protein HflD [Escherichia fergusonii ATCC 35469] &gt;sp|B7LX67.1| RecName: Full=High frequency lysogenization protein HflD [Escherichia coli IAI1] &gt;sp|B7N3P2.1| RecName: Full=High frequency lysogenization protein HflD [Escherichia coli UMN026] &gt;sp|C4ZS72.1| RecName: Full=High frequency lysogenization protein HflD [Escherichia coli BW2952] &gt;sp|P25746.1| RecName: Full=High frequency lysogenization protein HflD [Escherichia coli K-12] &gt;sp|Q32EZ0.1| RecName: Full=High frequency lysogenization protein HflD homolog [Shigella dysenteriae Sd197] &gt;sp|Q3Z2Y7.1| RecName: Full=High frequency lysogenization protein HflD homolog [Shigella sonnei Ss046] &gt;gb|AGX33253.1| putative lysogenization regulator [synthetic Escherichia coli C321.deltaA] &gt;gb|AIF60227.1| putative lysogenization regulator [Escherichia coli B7A] &gt;gb|EDX28734.1| conserved hypothetical protein [Escherichia coli B171] &gt;gb|EEC7200598.1| high frequency lysogenization protein HflD [Escherichia coli O11] &gt;gb|EEC7211456.1| high frequency lysogenization protein HflD [Escherichia coli O103] &gt;gb|EER0915686.1| high frequency lysogenization protein HflD [Escherichia coli O168:H8] &gt;gb|EER4141150.1| high frequency lysogenization protein HflD [Escherichia coli O6] &gt;gb|EES8442699.1| high frequency lysogenization protein HflD [Escherichia coli O6:H34] &gt;gb|EES8552556.1| high frequency lysogenization protein HflD [Escherichia coli O168] &gt;gb|EEV2751689.1| high frequency lysogenization protein HflD [Escherichia coli O139] &gt;gb|EEV2840432.1| high frequency lysogenization protein HflD [Escherichia coli O43:H2] &gt;gb|EEY1519444.1| high frequency lysogenization protein HflD [Escherichia coli O126] &gt;gb|EEY1571935.1| high frequency lysogenization protein HflD [Escherichia coli O21] &gt;gb|EEY4449369.1| high frequency lysogenization protein HflD [Escherichia coli O116] &gt;gb|EEY4479664.1| high frequency lysogenization protein HflD [Escherichia coli O8] &gt;gb|EEY7913039.1| lysogenization regulator HflD [Escherichia coli O21:H28] &gt;gb|EEY7937481.1| lysogenization regulator HflD [Escherichia coli O20:H9] &gt;gb|EEY7948952.1| lysogenization regulator HflD [Escherichia coli H30] &gt;gb|EEZ5652054.1| high frequency lysogenization protein HflD [Escherichia coli O20] &gt;gb|EEZ5668939.1| high frequency lysogenization protein HflD [Escherichia coli O2] &gt;gb|EEZ5677208.1| high frequency lysogenization protein HflD [Escherichia coli O25] &gt;gb|EEZ5695376.1| high frequency lysogenization protein HflD [Escherichia coli O65] &gt;gb|EEZ5741411.1| high frequency lysogenization protein HflD [Escherichia coli O9] &gt;gb|EEZ5753363.1| high frequency lysogenization protein HflD [Escherichia coli O15] &gt;gb|EEZ5758167.1| high frequency lysogenization protein HflD [Escherichia coli O101] &gt;gb|EEZ5763131.1| high frequency lysogenization protein HflD [Escherichia coli O140] &gt;gb|EEZ5779851.1| high frequency lysogenization protein HflD [Escherichia coli O40] &gt;gb|EEZ5782499.1| high frequency lysogenization protein HflD [Escherichia coli O107] &gt;gb|EEZ5805588.1| high frequency lysogenization protein HflD [Escherichia coli O105] &gt;gb|EEZ5876277.1| high frequency lysogenization protein HflD [Escherichia coli O102] &gt;gb|EEZ5886601.1| high frequency lysogenization protein HflD [Escherichia coli O146] &gt;gb|EEZ5976845.1| high frequency lysogenization protein HflD [Escherichia coli O19] &gt;gb|EEZ6008406.1| high frequency lysogenization protein HflD [Escherichia coli O117] &gt;gb|EEZ6012762.1| high frequency lysogenization protein HflD [Escherichia coli O171] &gt;gb|EEZ6113982.1| high frequency lysogenization protein HflD [Escherichia coli O73] &gt;gb|EEZ6412660.1| high frequency lysogenization protein HflD [Escherichia coli O104] &gt;gb|EEZ6459805.1| high frequency lysogenization protein HflD [Escherichia coli O16] &gt;gb|EEZ6490924.1| high frequency lysogenization protein HflD [Escherichia coli O156] &gt;gb|EEZ6621949.1| high frequency lysogenization protein HflD [Escherichia coli O7] &gt;gb|EEZ6984563.1| high frequency lysogenization protein HflD [Escherichia coli O109] &gt;gb|EEZ7032493.1| high frequency lysogenization protein HflD [Escherichia coli O175] &gt;gb|EEZ7065561.1| high frequency lysogenization protein HflD [Escherichia coli O17] &gt;gb|EEZ8569365.1| high frequency lysogenization protein HflD [Escherichia coli O113] &gt;gb|EEZ8616674.1| high frequency lysogenization protein HflD [Escherichia coli O160] &gt;gb|EEZ8949235.1| high frequency lysogenization protein HflD [Escherichia coli O35] &gt;gb|EEZ9003394.1| high frequency lysogenization protein HflD [Escherichia coli O150] &gt;gb|EEZ9008215.1| high frequency lysogenization protein HflD [Escherichia coli O57:H16] &gt;gb|EEZ9033408.1| high frequency lysogenization protein HflD [Escherichia coli O75] &gt;gb|EEZ9677970.1| high frequency lysogenization protein HflD [Escherichia coli O55] &gt;gb|EEZ9697392.1| high frequency lysogenization protein HflD [Escherichia coli O1] &gt;gb|EEZ9761601.1| high frequency lysogenization protein HflD [Escherichia coli O115] &gt;gb|EEZ9828300.1| high frequency lysogenization protein HflD [Escherichia coli O153] &gt;gb|EEZ9857037.1| high frequency lysogenization protein HflD [Escherichia coli O54] &gt;gb|EEZ9869296.1| high frequency lysogenization protein HflD [Escherichia coli O10] &gt;gb|EFA4033983.1| high frequency lysogenization protein HflD [Escherichia coli O108:H9] &gt;gb|EFA4036307.1| high frequency lysogenization protein HflD [Escherichia coli O120:H10] &gt;gb|EFA4048766.1| high frequency lysogenization protein HflD [Escherichia coli O144] &gt;gb|EFA4051240.1| high frequency lysogenization protein HflD [Escherichia coli O91:H28] &gt;gb|EFA4056430.1| high frequency lysogenization protein HflD [Escherichia coli O38:H26] &gt;gb|EFA4074130.1| high frequency lysogenization protein HflD [Escherichia coli O96] &gt;gb|EFA4087203.1| high frequency lysogenization protein HflD [Escherichia coli OX38:H47] &gt;gb|EFA4115635.1| high frequency lysogenization protein HflD [Escherichia coli O14] &gt;gb|EFA4122160.1| high frequency lysogenization protein HflD [Escherichia coli O49:H9] &gt;gb|EFA4130627.1| high frequency lysogenization protein HflD [Escherichia coli OX01:H8] &gt;gb|EFA4137103.1| high frequency lysogenization protein HflD [Escherichia coli O8:H31] &gt;gb|EFA4145211.1| high frequency lysogenization protein HflD [Escherichia coli O99:H27] &gt;gb|EFA4149263.1| high frequency lysogenization protein HflD [Escherichia coli O166:H49] &gt;gb|EFA4161066.1| high frequency lysogenization protein HflD [Escherichia coli O174:H7] &gt;gb|EFA4164374.1| high frequency lysogenization protein HflD [Escherichia coli O70:H25] &gt;gb|EFA4169552.1| high frequency lysogenization protein HflD [Escherichia coli O80:H45] &gt;gb|EFA4171862.1| high frequency lysogenization protein HflD [Escherichia coli O163] &gt;gb|EFA4176874.1| high frequency lysogenization protein HflD [Escherichia coli O43:H14] &gt;gb|EFA4184566.1| high frequency lysogenization protein HflD [Escherichia coli O86:H8] &gt;gb|EFA4201247.1| high frequency lysogenization protein HflD [Escherichia coli O2:H32] &gt;gb|EFA4221920.1| high frequency lysogenization protein HflD [Escherichia coli O151:H8] &gt;gb|EFA4226319.1| high frequency lysogenization protein HflD [Escherichia coli O11:H15] &gt;gb|EFA4233540.1| high frequency lysogenization protein HflD [Escherichia coli O40:H32] &gt;gb|EFA4242369.1| high frequency lysogenization protein HflD [Escherichia coli O36:H5] &gt;gb|EFA4258096.1| high frequency lysogenization protein HflD [Escherichia coli O136:H26] &gt;gb|EFA4281950.1| high frequency lysogenization protein HflD [Escherichia coli O167:H9] &gt;gb|EFA4287091.1| high frequency lysogenization protein HflD [Escherichia coli O36] &gt;gb|EFA4294467.1| high frequency lysogenization protein HflD [Escherichia coli O18:H7] &gt;gb|EFA4300515.1| high frequency lysogenization protein HflD [Escherichia coli O119] &gt;gb|EFA8197003.1| high frequency lysogenization protein HflD [Escherichia coli O111] &gt;gb|EFA8659816.1| high frequency lysogenization protein HflD [Escherichia coli O8:H9] &gt;gb|EFA8809980.1| high frequency lysogenization protein HflD [Escherichia coli O8:H49] &gt;gb|EFA8815405.1| high frequency lysogenization protein HflD [Escherichia coli O74] &gt;gb|EFB4108630.1| high frequency lysogenization protein HflD [Escherichia coli O53] &gt;gb|EFB4118998.1| high frequency lysogenization protein HflD [Escherichia coli O5] &gt;gb|EFB4129417.1| high frequency lysogenization protein HflD [Escherichia coli O100] &gt;gb|EFB4131601.1| high frequency lysogenization protein HflD [Escherichia coli O8:H36] &gt;gb|EFE0991473.1| high frequency lysogenization protein HflD [Escherichia coli O159:H19] &gt;gb|EFE1066747.1| high frequency lysogenization protein HflD [Escherichia coli O113:H36] &gt;gb|EFE2120918.1| high frequency lysogenization protein HflD [Escherichia coli O74:H8] &gt;gb|EFE2141993.1| high frequency lysogenization protein HflD [Escherichia coli O8:H19] &gt;gb|EFL5749941.1| high frequency lysogenization protein HflD [Escherichia coli P12b] &gt;gb|EFN6681119.1| lysogenization regulator HflD [Escherichia coli O179:H8] &gt;gb|EFN6718068.1| lysogenization regulator HflD [Escherichia coli H18] &gt;gb|EFN6731921.1| lysogenization regulator HflD [Escherichia coli H19] &gt;gb|EFN6764009.1| lysogenization regulator HflD [Escherichia coli O45:H11] &gt;gb|EFN6841703.1| lysogenization regulator HflD [Escherichia coli H51] &gt;gb|EFN6843537.1| lysogenization regulator HflD [Escherichia coli O139:H19] &gt;gb|EFN7220761.1| lysogenization regulator HflD [Escherichia coli O21:H34] &gt;gb|EFN7230939.1| lysogenization regulator HflD [Escherichia coli O26:H32] &gt;gb|EFN7259718.1| lysogenization regulator HflD [Escherichia coli O162:H9] &gt;gb|EFN7341777.1| lysogenization regulator HflD [Escherichia coli O128:H2] &gt;gb|EFN7364313.1| lysogenization regulator HflD [Escherichia coli O180:H14] &gt;gb|EFN8432890.1| lysogenization protein HflD [Escherichia coli O68] &gt;gb|EFN8571293.1| lysogenization protein HflD [Escherichia coli O85:H32] &gt;gb|EFN8585012.1| lysogenization protein HflD [Escherichia coli O8:H21] &gt;gb|EFN8587766.1| lysogenization protein HflD [Escherichia coli O53:H10] &gt;gb|EFN8594292.1| lysogenization protein HflD [Escherichia coli O41:H11] &gt;gb|EFN8601703.1| lysogenization protein HflD [Escherichia coli O153:H12] &gt;gb|EFN8607047.1| lysogenization protein HflD [Escherichia coli O83:H28] &gt;gb|EFN8610541.1| lysogenization protein HflD [Escherichia coli O41:H45] &gt;gb|EFN8615739.1| lysogenization protein HflD [Escherichia coli H8] &gt;gb|EFN8620402.1| lysogenization protein HflD [Escherichia coli O51] &gt;gb|EFN8704970.1| lysogenization protein HflD [Escherichia coli O79] &gt;gb|EFN8709523.1| lysogenization protein HflD [Escherichia coli O130] &gt;gb|EFO2079947.1| lysogenization protein HflD [Escherichia coli O409] &gt;gb|EFO2114087.1| lysogenization protein HflD [Escherichia coli O106] &gt;gb|EFO2287441.1| lysogenization protein HflD [Escherichia coli O148] &gt;gb|EFO3050608.1| lysogenization protein HflD [Escherichia coli O32] &gt;gb|EFQ01656.1| conserved hypothetical protein [Escherichia coli 1827-70] &gt;gb|EFZ58128.1| hypothetical protein ECLT68_3143 [Escherichia coli LT-68] &gt;gb|EGB68467.1| hypothetical protein ERHG_00654 [Escherichia coli TA007] &gt;gb|EGI37013.1| conserved hypothetical protein [Escherichia coli TA271] &gt;gb|EGR64194.1| putative lysogenization regulator [Escherichia coli O104:H4 str. 01-09591] &gt;gb|EGR75008.1| putative lysogenization regulator [Escherichia coli O104:H4 str. LB226692] &gt;gb|EGU27611.1| putative lysogenization regulator [Escherichia coli XH140A] &gt;gb|EGW75682.1| hypothetical protein EC253486_1658 [Escherichia coli 2534-86] &gt;gb|EGW89156.1| hypothetical protein EC30301_1382 [Escherichia coli 3030-1] &gt;gb|EGW93702.1| hypothetical protein ECSTECDG1313_1887 [Escherichia coli STEC_DG131-3] &gt;gb|EGX11651.1| hypothetical protein ECG581_1412 [Escherichia coli G58-1] &gt;gb|EGX24727.1| hypothetical protein ECTX1999_1190 [Escherichia coli TX1999] &gt;gb|EHD3363355.1| high frequency lysogenization protein HflD [Escherichia coli O124] &gt;gb|EHD3370260.1| high frequency lysogenization protein HflD [Escherichia coli O28ac] &gt;gb|EHD3398217.1| high frequency lysogenization protein HflD [Escherichia coli O152] &gt;gb|EHD3420851.1| high frequency lysogenization protein HflD [Escherichia coli O167] &gt;gb|EHP62750.1| high frequency lysogenization protein hflD [Escherichia coli 4_1_47FAA] &gt;gb|EHV60537.1| high frequency lysogenization protein hflD [Escherichia coli DEC6A] &gt;gb|EHV61725.1| lysogenization regulator [Escherichia coli DEC6B] &gt;gb|EHV64863.1| high frequency lysogenization protein hflD [Escherichia coli DEC6C] &gt;gb|EHV74397.1| high frequency lysogenization protein hflD [Escherichia coli DEC6D] &gt;gb|EHW12641.1| high frequency lysogenization protein hflD [Escherichia coli DEC8A] &gt;gb|EHW15927.1| lysogenization regulator [Escherichia coli DEC8B] &gt;gb|EHW20073.1| lysogenization regulator [Escherichia coli DEC8C] &gt;gb|EHW32319.1| lysogenization regulator [Escherichia coli DEC8E] &gt;gb|EHW59905.1| lysogenization regulator [Escherichia coli DEC9E] &gt;gb|EHW64616.1| lysogenization regulator [Escherichia coli DEC10A] &gt;gb|EHW71698.1| lysogenization regulator [Escherichia coli DEC10B] &gt;gb|EHW76138.1| lysogenization regulator [Escherichia coli DEC10C] &gt;gb|EHW81280.1| lysogenization regulator [Escherichia coli DEC10D] &gt;gb|EHW93940.1| lysogenization regulator [Escherichia coli DEC10E] &gt;gb|EHX15055.1| high frequency lysogenization protein hflD [Escherichia coli DEC11C] &gt;gb|EHX20413.1| high frequency lysogenization protein hflD [Escherichia coli DEC11E] &gt;gb|EHX31935.1| lysogenization regulator [Escherichia coli DEC12B] &gt;gb|EHX35140.1| high frequency lysogenization protein hflD [Escherichia coli DEC12C] &gt;gb|EHX81387.1| high frequency lysogenization protein hflD [Escherichia coli DEC14A] &gt;gb|EHX83334.1| lysogenization regulator [Escherichia coli DEC14B] &gt;gb|EHX90871.1| lysogenization regulator [Escherichia coli DEC14C] &gt;gb|EHY19998.1| lysogenization regulator [Escherichia coli DEC15E] &gt;gb|EIH0321497.1| high frequency lysogenization protein HflD [Escherichia coli O112] &gt;gb|EIH1067998.1| high frequency lysogenization protein HflD [Escherichia coli O7:H18] &gt;gb|EIH1078561.1| high frequency lysogenization protein HflD [Escherichia coli O163:H38] &gt;gb|EII25313.1| PF04356 family protein [Escherichia coli 9.0111] &gt;gb|EIQ44818.1| high frequency lysogenization protein hflD [Shigella sonnei 3226-85] &gt;gb|EIQ46357.1| high frequency lysogenization protein hflD [Shigella sonnei 3233-85] &gt;gb|EIQ53786.1| lysogenization regulator [Shigella sonnei 4822-66] &gt;gb|EIQ65224.1| high frequency lysogenization protein hflD [Escherichia coli EPECa12] &gt;gb|EIQ71498.1| lysogenization regulator [Escherichia coli EPEC C342-62] &gt;gb|EJL18583.1| lysogenization regulator [Shigella sonnei str. Moseley] &gt;gb|EKF2609176.1| high frequency lysogenization protein HflD [Escherichia coli O45] &gt;gb|EMZ2603073.1| high frequency lysogenization protein HflD [Escherichia coli O11:H6] &gt;gb|EMZ2629709.1| high frequency lysogenization protein HflD [Escherichia coli O8:H11] &gt;gb|EMZ2636840.1| high frequency lysogenization protein HflD [Escherichia coli O13/O135:H23] &gt;gb|EMZ2649351.1| high frequency lysogenization protein HflD [Escherichia coli O84:H14] &gt;gb|EMZ7180135.1| high frequency lysogenization protein HflD [Escherichia O78:H4] &gt;gb|EMZ8223972.1| high frequency lysogenization protein HflD [Escherichia coli O162/O89:H9] &gt;gb|ENA0263695.1| high frequency lysogenization protein HflD [Escherichia coli O21:H19] &gt;gb|ENA0274818.1| high frequency lysogenization protein HflD [Escherichia coli O8:H25] &gt;gb|ENA0280866.1| high frequency lysogenization protein HflD [Escherichia coli :H5] &gt;gb|ENA0304750.1| high frequency lysogenization protein HflD [Escherichia coli O84:H25] &gt;gb|ENA0319465.1| high frequency lysogenization protein HflD [Escherichia coli :H21] &gt;gb|ENA0327109.1| high frequency lysogenization protein HflD [Escherichia coli O123/O186:H49] &gt;gb|ENA0333522.1| high frequency lysogenization protein HflD [Escherichia coli O109:H7] &gt;gb|ENA0336322.1| high frequency lysogenization protein HflD [Escherichia coli O12:H48] &gt;gb|ENA0356238.1| high frequency lysogenization protein HflD [Escherichia coli O9:H37] &gt;gb|ENA6184120.1| high frequency lysogenization protein HflD [Escherichia coli O62/O68:H12] &gt;gb|ENC9037705.1| high frequency lysogenization protein HflD [Escherichia coli :H7] &gt;gb|END0229810.1| high frequency lysogenization protein HflD [Escherichia coli O157:H26] &gt;gb|END0248067.1| high frequency lysogenization protein HflD [Escherichia coli O21:H21] &gt;gb|END2822730.1| high frequency lysogenization protein HflD [Escherichia coli O17/O44/O77:H1] &gt;gb|END2857977.1| high frequency lysogenization protein HflD [Escherichia coli O16:H2] &gt;gb|ENE1728716.1| high frequency lysogenization protein HflD [Escherichia coli O125:H19] &gt;gb|ENE1796847.1| high frequency lysogenization protein HflD [Escherichia coli O134/O8:H19] &gt;gb|ENE2092716.1| high frequency lysogenization protein HflD [Escherichia coli O15:H33] &gt;gb|ENF4750164.1| high frequency lysogenization protein HflD [Escherichia coli O18:H49] &gt;gb|ENF5495422.1| high frequency lysogenization protein HflD [Escherichia coli O9:H25] &gt;gb|ENF5790830.1| high frequency lysogenization protein HflD [Escherichia coli O9:H4] &gt;gb|ENF6666447.1| high frequency lysogenization protein HflD [Escherichia coli :H25] &gt;gb|ENG9223164.1| high frequency lysogenization protein HflD [Escherichia coli O76:H7] &gt;gb|ENH3912539.1| high frequency lysogenization protein HflD [Escherichia coli O153/O178:H19] &gt;gb|ENH9024372.1| high frequency lysogenization protein HflD [Escherichia coli O4:H45] &gt;gb|ENM2772815.1| high frequency lysogenization protein HflD [Escherichia coli O155/O8:H41] &gt;gb|ENM4028172.1| high frequency lysogenization protein HflD [Escherichia coli O26:H40] &gt;gb|ENM4609741.1| high frequency lysogenization protein HflD [Escherichia coli :H45] &gt;gb|ENQ6478707.1| high frequency lysogenization protein HflD [Escherichia coli O130:H26] &gt;gb|ENQ8728546.1| high frequency lysogenization protein HflD [Escherichia coli O110:H5] &gt;gb|ENR2087701.1| high frequency lysogenization protein HflD [Escherichia coli O15:H6] &gt;gb|ENR9116491.1| high frequency lysogenization protein HflD [Escherichia coli O75:H38/H55] &gt;gb|ENT6604389.1| high frequency lysogenization protein HflD [Escherichia coli O9:H9] &gt;gb|ENU5861606.1| high frequency lysogenization protein HflD [Escherichia coli O15:H45] &gt;gb|ENU5866460.1| high frequency lysogenization protein HflD [Escherichia coli H48] &gt;gb|ENU5876256.1| high frequency lysogenization protein HflD [Escherichia coli O82:H8] &gt;gb|ENU5882618.1| high frequency lysogenization protein HflD [Escherichia coli O112ac:H20] &gt;gb|ENU5895061.1| high frequency lysogenization protein HflD [Escherichia coli O179/8:H45] &gt;gb|ENU6048471.1| high frequency lysogenization protein HflD [Escherichia coli H21] &gt;gb|ENU6078143.1| high frequency lysogenization protein HflD [Escherichia coli O114:H31] &gt;gb|ENU6083091.1| high frequency lysogenization protein HflD [Escherichia coli O79:H28] &gt;gb|ENU6097244.1| high frequency lysogenization protein HflD [Escherichia coli O15:H25] &gt;gb|ENU6100959.1| high frequency lysogenization protein HflD [Escherichia coli O175:H21] &gt;gb|ENU6123818.1| high frequency lysogenization protein HflD [Escherichia coli O65:H11] &gt;gb|ENU6131270.1| high frequency lysogenization protein HflD [Escherichia coli O48:H34] &gt;gb|ENU6136743.1| high frequency lysogenization protein HflD [Escherichia coli O28ac/42:H25] &gt;gb|ENY3515241.1| high frequency lysogenization protein HflD [Escherichia coli O146:H28] &gt;gb|ENY3520704.1| high frequency lysogenization protein HflD [Escherichia coli O133:H29] &gt;gb|ENY3524173.1| high frequency lysogenization protein HflD [Escherichia coli O25:H18] &gt;gb|ENY3537572.1| high frequency lysogenization protein HflD [Escherichia coli O11:H16,53] &gt;gb|ENY3546472.1| high frequency lysogenization protein HflD [Escherichia coli O59:H20] &gt;gb|ENY3552660.1| high frequency lysogenization protein HflD [Escherichia coli O91:H23] &gt;gb|ENY3573822.1| high frequency lysogenization protein HflD [Escherichia coli O137:H41] &gt;gb|ENY4262168.1| high frequency lysogenization protein HflD [Escherichia coli H9] &gt;gb|ENY4302925.1| high frequency lysogenization protein HflD [Escherichia coli O45:H4] &gt;gb|ENY4309305.1| high frequency lysogenization protein HflD [Escherichia coli H4] &gt;gb|ENY4316660.1| high frequency lysogenization protein HflD [Escherichia coli O101:H9] &gt;gb|ENY4324831.1| high frequency lysogenization protein HflD [Escherichia coli H28] &gt;gb|ENY4327463.1| high frequency lysogenization protein HflD [Escherichia coli O9,9a:H4] &gt;gb|ENY4334864.1| high frequency lysogenization protein HflD [Escherichia coli O150:H11] &gt;gb|ENY4344793.1| high frequency lysogenization protein HflD [Escherichia coli O153:H2] &gt;gb|EOC1718429.1| high frequency lysogenization protein HflD [Shigella sp. PNUSAE096033] &gt;gb|EOC1726662.1| high frequency lysogenization protein HflD [Shigella sp. PNUSAE096031] &gt;gb|EOC1730905.1| high frequency lysogenization protein HflD [Shigella sp. PNUSAE096032] &gt;gb|EOC1747626.1| high frequency lysogenization protein HflD [Shigella sp. PNUSAE096034] &gt;gb|EOC1769859.1| high frequency lysogenization protein HflD [Shigella sp. PNUSAE096038] &gt;gb|EOC7002833.1| high frequency lysogenization protein HflD [Escherichia coli IAI39] &gt;gb|EOM3575422.1| high frequency lysogenization protein HflD [Escherichia coli O99:H4] &gt;gb|EOM3658259.1| high frequency lysogenization protein HflD [Escherichia coli O101:H10] &gt;gb|EOM3673354.1| high frequency lysogenization protein HflD [Escherichia coli O9,9a] &gt;gb|EOM3690060.1| high frequency lysogenization protein HflD [Escherichia coli O101:H4] &gt;gb|EOM3695114.1| high frequency lysogenization protein HflD [Escherichia coli O11:H25] &gt;gb|EOM3702734.1| high frequency lysogenization protein HflD [Escherichia coli O86:H18] &gt;gb|EOM3705159.1| high frequency lysogenization protein HflD [Escherichia coli O101,9,9a:H9] &gt;gb|EOM3710293.1| high frequency lysogenization protein HflD [Escherichia coli O160:H34] &gt;gb|EOM3715068.1| high frequency lysogenization protein HflD [Escherichia coli O35:H4] &gt;gb|EOM3730311.1| high frequency lysogenization protein HflD [Escherichia coli O101:H45] &gt;gb|EOM3736241.1| high frequency lysogenization protein HflD [Escherichia coli O3:H2] &gt;gb|EOM3753520.1| high frequency lysogenization protein HflD [Escherichia coli O9,9a:H30] &gt;gb|EOM3782014.1| high frequency lysogenization protein HflD [Escherichia coli O11:H4] &gt;gb|EOM3805391.1| high frequency lysogenization protein HflD [Escherichia coli O182:H23] &gt;gb|EOM3810801.1| high frequency lysogenization protein HflD [Escherichia coli O179,8:H19] &gt;gb|EOM3821754.1| high frequency lysogenization protein HflD [Escherichia coli O102:H25] &gt;gb|EOM3832317.1| high frequency lysogenization protein HflD [Escherichia coli O9,9a:H9] &gt;gb|EOM3841680.1| high frequency lysogenization protein HflD [Escherichia coli O9,9a:H21] &gt;gb|EOM3849675.1| high frequency lysogenization protein HflD [Escherichia coli O140:H32] &gt;gb|EOM3875081.1| high frequency lysogenization protein HflD [Escherichia coli O115:H10] &gt;gb|EOM3883357.1| high frequency lysogenization protein HflD [Escherichia coli O7:H10] &gt;gb|EOM3887913.1| high frequency lysogenization protein HflD [Escherichia coli O153:H21] &gt;gb|EOM3892444.1| high frequency lysogenization protein HflD [Escherichia coli O100:H12] &gt;gb|EOM3911455.1| high frequency lysogenization protein HflD [Escherichia coli O148:H32] &gt;gb|EOM3921772.1| high frequency lysogenization protein HflD [Escherichia coli O115:H51] &gt;gb|EOM3928106.1| high frequency lysogenization protein HflD [Escherichia coli O29:H8] &gt;gb|EOM3961928.1| high frequency lysogenization protein HflD [Escherichia coli H27] &gt;gb|EOM3985601.1| high frequency lysogenization protein HflD [Escherichia coli O28ac,42:H7] &gt;gb|EOM3990519.1| high frequency lysogenization protein HflD [Escherichia coli O16:H32] &gt;gb|EOM4019841.1| high frequency lysogenization protein HflD [Escherichia coli O166:H25] &gt;gb|EOT9727636.1| high frequency lysogenization protein HflD [Escherichia coli O91:H14] &gt;gb|EOT9756587.1| high frequency lysogenization protein HflD [Escherichia coli O106:H18] &gt;gb|EOW5430729.1| high frequency lysogenization protein HflD [Escherichia coli O51:H4] &gt;gb|EOW5443567.1| high frequency lysogenization protein HflD [Escherichia coli O54:H2] &gt;gb|EOW5455014.1| high frequency lysogenization protein HflD [Escherichia coli O8:H7] &gt;gb|EOW5465258.1| high frequency lysogenization protein HflD [Escherichia coli O141,141ab,141ac:H43] &gt;gb|EOW5474390.1| high frequency lysogenization protein HflD [Escherichia coli O25:H19] &gt;gb|EOW5477889.1| high frequency lysogenization protein HflD [Escherichia coli O169] &gt;gb|EOW5483241.1| high frequency lysogenization protein HflD [Escherichia coli H32] &gt;gb|EOW5488455.1| high frequency lysogenization protein HflD [Escherichia coli O70:H38] &gt;gb|EOW5506178.1| high frequency lysogenization protein HflD [Escherichia coli O116:H51] &gt;gb|EOW5509690.1| high frequency lysogenization protein HflD [Escherichia coli O26:H10] &gt;gb|EOW5527565.1| high frequency lysogenization protein HflD [Escherichia coli O162:H48] &gt;gb|EOW5540543.1| high frequency lysogenization protein HflD [Escherichia coli O21:H12] &gt;gb|EOW5545010.1| high frequency lysogenization protein HflD [Escherichia coli O5:H32] &gt;gb|EOW5548682.1| high frequency lysogenization protein HflD [Escherichia coli O2,50:H32] &gt;gb|EOW5553664.1| high frequency lysogenization protein HflD [Escherichia coli O45:H45] &gt;gb|EOW5563732.1| high frequency lysogenization protein HflD [Escherichia coli O152:H2] &gt;gb|EOW5568698.1| high frequency lysogenization protein HflD [Escherichia coli O1:H32] &gt;gb|EOW5571657.1| high frequency lysogenization protein HflD [Escherichia coli O23:H43] &gt;gb|EOW5577374.1| high frequency lysogenization protein HflD [Escherichia coli O73,17,77:H31] &gt;gb|EOW5599276.1| high frequency lysogenization protein HflD [Escherichia coli O102:H32] &gt;gb|EOW5605017.1| high frequency lysogenization protein HflD [Escherichia coli O70:H10] &gt;gb|EOW5610795.1| high frequency lysogenization protein HflD [Escherichia coli O84:H51] &gt;gb|EOW5615314.1| high frequency lysogenization protein HflD [Escherichia coli O109:H45] &gt;gb|EOW5628234.1| high frequency lysogenization protein HflD [Escherichia coli O109:H40] &gt;gb|EOW5637733.1| high frequency lysogenization protein HflD [Escherichia coli O79:H51] &gt;gb|EOW5643183.1| high frequency lysogenization protein HflD [Escherichia coli O162:H7] &gt;gb|EOW5656977.1| high frequency lysogenization protein HflD [Escherichia coli O112ab:H9] &gt;gb|EOW5662792.1| high frequency lysogenization protein HflD [Escherichia coli O113:H4] &gt;gb|EOW5665950.1| high frequency lysogenization protein HflD [Escherichia coli O13,129,135:H11] &gt;gb|EOW5680682.1| high frequency lysogenization protein HflD [Escherichia coli O36:H9] &gt;gb|EOW5685442.1| high frequency lysogenization protein HflD [Escherichia coli O187:H4] &gt;gb|EOW5688053.1| high frequency lysogenization protein HflD [Escherichia coli H10] &gt;gb|EOW5697495.1| high frequency lysogenization protein HflD [Escherichia coli O156:H37] &gt;gb|EOW5717320.1| high frequency lysogenization protein HflD [Escherichia coli O136:H40] &gt;gb|EOW5721549.1| high frequency lysogenization protein HflD [Escherichia coli O160,9:H2] &gt;gb|EOW5728902.1| high frequency lysogenization protein HflD [Escherichia coli O166:H7] &gt;gb|EOW5739265.1| high frequency lysogenization protein HflD [Escherichia coli H45] &gt;gb|EOW5743369.1| high frequency lysogenization protein HflD [Escherichia coli O25:H30] &gt;gb|EOW5747641.1| high frequency lysogenization protein HflD [Escherichia coli H37] &gt;gb|EOW5756038.1| high frequency lysogenization protein HflD [Escherichia coli O2,50:H19] &gt;gb|EOW5767387.1| high frequency lysogenization protein HflD [Escherichia coli O88:H8] &gt;gb|EOW5776545.1| high frequency lysogenization protein HflD [Escherichia coli O20:H45] &gt;gb|EOW5779936.1| high frequency lysogenization protein HflD [Escherichia coli O109:H4] &gt;gb|EOW5783700.1| high frequency lysogenization protein HflD [Escherichia coli O1:H28] &gt;gb|EOW5799378.1| high frequency lysogenization protein HflD [Escherichia coli O8:H16] &gt;gb|EOW5835136.1| high frequency lysogenization protein HflD [Escherichia coli O8,160:H51] &gt;gb|EOW5858818.1| high frequency lysogenization protein HflD [Escherichia coli O8,155:H11] &gt;gb|EOW5872236.1| high frequency lysogenization protein HflD [Escherichia coli O35:H10] &gt;gb|EOW5879846.1| high frequency lysogenization protein HflD [Escherichia coli H5] &gt;gb|EOW5936278.1| high frequency lysogenization protein HflD [Escherichia coli O8:H20] &gt;gb|EOW5975642.1| high frequency lysogenization protein HflD [Escherichia coli O109:H27] &gt;gb|EOW6041071.1| high frequency lysogenization protein HflD [Escherichia coli H40] &gt;gb|EOW6129915.1| high frequency lysogenization protein HflD [Escherichia coli O13,129, 135:H11] &gt;gb|EOW6240144.1| high frequency lysogenization protein HflD [Escherichia coli O9a:H4] &gt;gb|EOX9474502.1| high frequency lysogenization protein HflD [Escherichia coli O5:H9] &gt;gb|EPA7246747.1| high frequency lysogenization protein HflD [Escherichia coli O9,30:H25] &gt;gb|EPA7252485.1| high frequency lysogenization protein HflD [Escherichia coli O88:H31] &gt;gb|EPA7279122.1| high frequency lysogenization protein HflD [Escherichia coli O75:H9] &gt;gb|EPA7282130.1| high frequency lysogenization protein HflD [Escherichia coli O28ac, 42:H25] &gt;gb|EPA7292593.1| high frequency lysogenization protein HflD [Escherichia coli O6:H49] &gt;gb|EPA7298800.1| high frequency lysogenization protein HflD [Escherichia coli O123,186:H40] &gt;gb|EPA7315994.1| high frequency lysogenization protein HflD [Escherichia coli O13,21,129,135:H11] &gt;gb|EPA7323524.1| high frequency lysogenization protein HflD [Escherichia coli O1:H27] &gt;gb|EPA7335666.1| high frequency lysogenization protein HflD [Escherichia coli O13,129, 135:H26] &gt;gb|EPA7349807.1| high frequency lysogenization protein HflD [Escherichia coli O8:H4] &gt;gb|EPA7366420.1| high frequency lysogenization protein HflD [Escherichia coli O9:H16] &gt;gb|EPA7399382.1| high frequency lysogenization protein HflD [Escherichia coli O98:H49] &gt;gb|EPA7412968.1| high frequency lysogenization protein HflD [Escherichia coli O6,162:H7,49] &gt;gb|EPA7417981.1| high frequency lysogenization protein HflD [Escherichia coli O86:H51] &gt;gb|EPC6726384.1| high frequency lysogenization protein HflD [Escherichia coli O88:H38] &gt;gb|EPC6731313.1| high frequency lysogenization protein HflD [Escherichia coli O51:H10] &gt;gb|EPC6733636.1| high frequency lysogenization protein HflD [Escherichia coli O127:H40] &gt;gb|EPC6741882.1| high frequency lysogenization protein HflD [Escherichia coli O174:H10] &gt;gb|EPC6745597.1| high frequency lysogenization protein HflD [Escherichia coli O21,81:H5,27] &gt;gb|EPC6753417.1| high frequency lysogenization protein HflD [Escherichia coli O121:H11] &gt;gb|EPC6760143.1| high frequency lysogenization protein HflD [Escherichia coli O5:H11] &gt;gb|EPC6777999.1| high frequency lysogenization protein HflD [Escherichia coli O8:H30] &gt;gb|EPC6783642.1| high frequency lysogenization protein HflD [Escherichia coli O3:H9] &gt;gb|EPC6820672.1| high frequency lysogenization protein HflD [Escherichia coli O82,121:H8] &gt;gb|EPC7000177.1| high frequency lysogenization protein HflD [Escherichia coli O10:H26] &gt;gb|EPD0859768.1| high frequency lysogenization protein HflD [Escherichia coli O8,13,108,129,135:H11,20] &gt;gb|ESS94546.1| putative purine metabolism protein [Escherichia coli CE418] &gt;gb|EST77531.1| hypothetical protein ECA727_16944 [Escherichia coli ECA-727] &gt;gb|ETJ23053.1| MAG: High frequency lysogenization protein HflD [Escherichia coli DORA_A_5_14_21] &gt;gb|EYE03104.1| high frequency lysogenization protein hflD [Escherichia coli 1-110-08_S4_C3] &gt;gb|EYE03440.1| high frequency lysogenization protein hflD [Escherichia coli 1-110-08_S4_C2] &gt;gb|EYE26826.1| high frequency lysogenization protein hflD [Escherichia coli 1-110-08_S3_C2] &gt;gb|EYE28146.1| high frequency lysogenization protein hflD [Escherichia coli 1-110-08_S3_C1] &gt;gb|EZA22091.1| lysogenization regulator [Escherichia coli O28ac:NM str. 02-3404] &gt;gb|EZA23294.1| lysogenization regulator [Escherichia coli O113:H21 str. 07-4224] &gt;gb|EZJ88433.1| high frequency lysogenization protein hflD [Escherichia coli 1-182-04_S3_C2] &gt;gb|EZK22527.1| high frequency lysogenization protein hflD [Escherichia coli 1-176-05_S1_C2] &gt;gb|KAE9701186.1| high frequency lysogenization protein HflD [Enterobacteriaceae bacterium TzEc077] &gt;gb|KAE9746572.1| high frequency lysogenization protein HflD [Enterobacteriaceae bacterium TzEc058] &gt;gb|KAE9913091.1| high frequency lysogenization protein HflD [Enterobacteriaceae bacterium TzEc051] &gt;gb|KEO00281.1| high frequency lysogenization protein hflD [Escherichia coli 2-222-05_S3_C2] &gt;gb|MBT9744226.1| high frequency lysogenization protein HflD [Enterobacteriaceae bacterium MCC505] &gt;gb|MBU5562938.1| high frequency lysogenization protein HflD [Escherichia sp. S69_ASV_4] &gt;gb|MCQ8845186.1| high frequency lysogenization protein HflD [Klebsiella sp. KJ_S1] &gt;gb|MEB6032989.1| high frequency lysogenization protein HflD [Escherichia coli S88] &gt;gb|MEE6786156.1| high frequency lysogenization protein HflD [Escherichia coli OX21:H7] &gt;gb|MEE6789511.1| high frequency lysogenization protein HflD [Escherichia coli B13:H16] &gt;gb|MEE6793373.1| high frequency lysogenization protein HflD [Escherichia coli O17or77:H18] &gt;gb|MEE6813326.1| high frequency lysogenization protein HflD [Escherichia coli O13:H15] &gt;gb|MEE6828658.1| high frequency lysogenization protein HflD [Escherichia coli O74:H28] &gt;gb|MEE6847742.1| high frequency lysogenization protein HflD [Escherichia coli O74:H39] &gt;gb|MEE6877462.1| high frequency lysogenization protein HflD [Escherichia coli O126:H19] &gt;gb|MEE6886605.1| high frequency lysogenization protein HflD [Escherichia coli O104:H7] &gt;gb|MEE6926181.1| high frequency lysogenization protein HflD [Escherichia coli O2:H6] &gt;gb|MEE6932311.1| high frequency lysogenization protein HflD [Escherichia coli :H48] &gt;gb|MEE6943423.1| high frequency lysogenization protein HflD [Escherichia coli O15:H16] &gt;gb|MEE6951651.1| high frequency lysogenization protein HflD [Escherichia coli O87:H39] &gt;gb|MEE6960210.1| high frequency lysogenization protein HflD [Escherichia coli O81:H27] &gt;gb|MEE6966827.1| high frequency lysogenization protein HflD [Escherichia coli O156:H28] &gt;gb|MEE6972390.1| high frequency lysogenization protein HflD [Escherichia coli O28/42:H37] &gt;gb|MEE6986573.1| high frequency lysogenization protein HflD [Escherichia coli :H19] &gt;gb|MEE6996539.1| high frequency lysogenization protein HflD [Escherichia coli O93:H21] &gt;gb|MEE7000725.1| high frequency lysogenization protein HflD [Escherichia coli O7:H6] &gt;gb|MEE7014388.1| high frequency lysogenization protein HflD [Escherichia coli O146:H21] &gt;gb|MEE7018118.1| high frequency lysogenization protein HflD [Escherichia coli OX25:H28] &gt;gb|MEE7024993.1| high frequency lysogenization protein HflD [Escherichia coli :H15] &gt;gb|MEE7028738.1| high frequency lysogenization protein HflD [Escherichia coli O166:H16] &gt;gb|MEE7032387.1| high frequency lysogenization protein HflD [Escherichia coli O45:H16] &gt;gb|MEE7040467.1| high frequency lysogenization protein HflD [Escherichia coli O79:H4] &gt;gb|MEE7045770.1| high frequency lysogenization protein HflD [Escherichia coli O93:H19] &gt;gb|MEE7055188.1| high frequency lysogenization protein HflD [Escherichia coli O83:H32] &gt;gb|MEE7129730.1| high frequency lysogenization protein HflD [Escherichia coli O175:H26] &gt;gb|MEE7135784.1| high frequency lysogenization protein HflD [Escherichia coli O16:H16] &gt;gb|MEE7139494.1| high frequency lysogenization protein HflD [Escherichia coli O178:H7] &gt;gb|MEE7156372.1| high frequency lysogenization protein HflD [Escherichia coli O88:H25] &gt;gb|MEE7165495.1| high frequency lysogenization protein HflD [Escherichia coli O149:H2] &gt;gb|MEE7194403.1| high frequency lysogenization protein HflD [Escherichia coli O110:H10] &gt;gb|MEE7215095.1| high frequency lysogenization protein HflD [Escherichia coli O4:H2] &gt;gb|MEE7229518.1| high frequency lysogenization protein HflD [Escherichia coli O6:H10] &gt;gb|MEE7231022.1| high frequency lysogenization protein HflD [Escherichia coli O51:H51] &gt;gb|MEE7246570.1| high frequency lysogenization protein HflD [Escherichia coli :H10] &gt;gb|MEE7261378.1| high frequency lysogenization protein HflD [Escherichia coli O187:H52] &gt;gb|MEE7285540.1| high frequency lysogenization protein HflD [Escherichia coli O182:H16] &gt;gb|MEE7290579.1| high frequency lysogenization protein HflD [Escherichia coli :H14] &gt;gb|MEE7302379.1| high frequency lysogenization protein HflD [Escherichia coli O18:H14] &gt;gb|MEE7319742.1| high frequency lysogenization protein HflD [Escherichia coli B12:H39] &gt;gb|MEE7344527.1| high frequency lysogenization protein HflD [Escherichia coli D10:H20] &gt;gb|MEE7360920.1| high frequency lysogenization protein HflD [Escherichia coli O103:H43] &gt;gb|MEE7375904.1| high frequency lysogenization protein HflD [Escherichia coli B2:H7] &gt;gb|MEE7381173.1| high frequency lysogenization protein HflD [Escherichia coli O159:H10] &gt;gb|MFU2367375.1| high frequency lysogenization protein HflD [Enterobacteriaceae bacterium] &gt;gb|MGQ0414847.1| high frequency lysogenization protein HflD [Bacillus sp. HC-TM] &gt;gb|MGQ7071445.1| high frequency lysogenization protein HflD [Escherichia sp. SP-MK2] &gt;gb|MVW43141.1| high frequency lysogenization protein HflD [Enterobacteriaceae bacterium TzEc013] &gt;gb|MVX77098.1| high frequency lysogenization protein HflD [Enterobacteriaceae bacterium 8376wD9] &gt;gb|MVY08538.1| high frequency lysogenization protein HflD [Enterobacteriaceae bacterium 8376wH8] &gt;gb|MVY24283.1| high frequency lysogenization protein HflD [Enterobacteriaceae bacterium 8376wB8] &gt;gb|MVY28692.1| high frequency lysogenization protein HflD [Enterobacteriaceae bacterium 8376wD8] &gt;gb|MVY92751.1| high frequency lysogenization protein HflD [Enterobacteriaceae bacterium 8376wD7] &gt;gb|MVZ08277.1| high frequency lysogenization protein HflD [Enterobacteriaceae bacterium 8376wG6] &gt;gb|OAF97344.1| High frequency lysogenization protein hflD [Escherichia coli PCN009] &gt;gb|OSK17267.1| hypothetical protein EANG_03004 [Escherichia coli FVEC1465] &gt;gb|OSK41267.1| hypothetical protein EAJG_01904 [Escherichia coli E267] &gt;gb|URC08996.1| high frequency lysogenization protein [Escherichia phage vB_EcoM-689R6] &gt;emb|CCK46387.1| hypothetical protein BN16_17011 [Escherichia coli chi7122] &gt;emb|CDK47994.1| FIG002903: a protein of unknown function perhaps involved in purine metabolism [Escherichia coli IS1] &gt;emb|CDK77895.1| FIG002903: a protein of unknown function perhaps involved in purine metabolism [Klebsiella pneumoniae IS22] &gt;emb|CDK83030.1| FIG002903: a protein of unknown function perhaps involved in purine metabolism [Escherichia coli IS25] &gt;emb|SSG29313.1| putative lysogenization regulator [Klebsiella pneumoniae] &gt;dbj|BAL38232.1| predicted lysogenization regulator [Escherichia coli str. K-12 substr. MDS42] &gt;dbj|BGP97395.1| high frequency lysogenization protein HflD [Escherichia coli O166:H15] &gt;tpg|HAJ6402874.1| lysogenization regulator HflD [Escherichia coli HVH 101 (4-6859844)] &gt;tpg|HCA6859508.1| high frequency lysogenization protein HflD [Escherichia coli O21:H2] &gt;tpg|HCA7283915.1| high frequency lysogenization protein HflD [Escherichia coli O157:H45] &gt;tpg|HCB3973720.1| high frequency lysogenization protein HflD [Escherichia coli O25b:H4-ST131] &gt;tpg|HCC7245471.1| high frequency lysogenization protein HflD [Escherichia coli O141:H32] &gt;tpg|HDQ6462734.1| high frequency lysogenization protein HflD [Escherichia coli O18 str. F10018-41] &gt;tpg|HDQ6466090.1| high frequency lysogenization protein HflD [Escherichia coli O11 str. Bi632-42] &gt;tpg|HDQ6471228.1| high frequency lysogenization protein HflD [Escherichia coli O25 str. E39a] &gt;tpg|HDQ6474559.1| high frequency lysogenization protein HflD [Escherichia coli O104:H4 str. 11-3798] &gt;tpg|HDQ6489662.1| high frequency lysogenization protein HflD [Escherichia coli Ou:H16] &gt;tpg|HDQ6494704.1| high frequency lysogenization protein HflD [Escherichia coli O117:H4] &gt;tpg|HDQ6515090.1| high frequency lysogenization protein HflD [Escherichia coli O22:H16] &gt;tpg|HDQ6536835.1| high frequency lysogenization protein HflD [Escherichia coli O36:H14] &gt;tpg|HDQ6545202.1| high frequency lysogenization protein HflD [Escherichia coli O105:H7] &gt;tpg|HDQ6553753.1| high frequency lysogenization protein HflD [Escherichia coli O103:H25] &gt;tpg|HDQ6563509.1| high frequency lysogenization protein HflD [Escherichia coli O156:H25] &gt;tpg|HDQ6568689.1| high frequency lysogenization protein HflD [Escherichia coli Ou:H7] &gt;tpg|HDQ6584969.1| high frequency lysogenization protein HflD [Escherichia coli O187:H28] &gt;tpg|HDQ6609514.1| high frequency lysogenization protein HflD [Escherichia coli Ou:H21] &gt;tpg|HDQ6662286.1| high frequency lysogenization protein HflD [Escherichia coli O166:H28] &gt;tpg|HDQ6692446.1| high frequency lysogenization protein HflD [Escherichia coli O128AB:H2] &gt;tpg|HDQ6697280.1| high frequency lysogenization protein HflD [Escherichia coli O174:H8] &gt;tpg|HDQ6704384.1| high frequency lysogenization protein HflD [Escherichia coli Ou:H26] &gt;tpg|HDQ6860188.1| high frequency lysogenization protein HflD [Escherichia coli O128AC:H2] &gt;tpg|HDQ6952252.1| high frequency lysogenization protein HflD [Escherichia coli Ou:H8] &gt;tpg|HDQ7003926.1| high frequency lysogenization protein HflD [Escherichia coli O104:H4 str. Ec11-5537] &gt;tpg|HDQ7042250.1| high frequency lysogenization protein HflD [Escherichia coli O104:H4 str. Ec11-5538] &gt;tpg|HDR0378288.1| high frequency lysogenization protein HflD [Escherichia coli O104:H4 str. Ec11-5536] &gt;tpg|HDR9823935.1| high frequency lysogenization protein HflD [Escherichia coli C186-61 (10h)] &gt;tpg|HDR9858899.1| high frequency lysogenization protein HflD [Escherichia coli O10 str. Bi8337-41] &gt;tpg|HDR9892299.1| high frequency lysogenization protein HflD [Escherichia coli 87-1713 (10i)] &gt;tpg|HDR9895730.1| high frequency lysogenization protein HflD [Escherichia coli C240-52 (9c)] &gt;tpg|HDR9903510.1| high frequency lysogenization protein HflD [Escherichia coli C309-64 (10g)] &gt;tpg|HDR9911668.1| high frequency lysogenization protein HflD [Escherichia coli 92.0144 (F03)] &gt;tpg|HDR9917436.1| high frequency lysogenization protein HflD [Escherichia coli RDEC-1 (10f)] &gt;tpg|HDR9924779.1| high frequency lysogenization protein HflD [Escherichia coli 2254-75 (11a)] &gt;tpg|HDR9926726.1| high frequency lysogenization protein HflD [Escherichia coli 3350-73 (13a)] &gt;tpg|HDR9932447.1| high frequency lysogenization protein HflD [Escherichia coli A9619-c2 (11c)] &gt;tpg|HDS1976412.1| high frequency lysogenization protein HflD [Escherichia coli O145:NM str. 2012C-4480] &gt;tpg|HDS1981370.1| high frequency lysogenization protein HflD [Escherichia coli O145:NM str. 2012C-4479] &gt;tpg|HDS1986116.1| high frequency lysogenization protein HflD [Escherichia coli O145:NM str. 2012C-4478] &gt;tpg|HDS1988762.1| high frequency lysogenization protein HflD [Escherichia coli Bal225] &gt;tpg|HDS1995480.1| high frequency lysogenization protein HflD [Escherichia coli O145:NM str. 2012C-4474] &gt;tpg|HDS2000456.1| high frequency lysogenization protein HflD [Escherichia coli O145:NM str. 2012C-4477] &gt;tpg|HGU5032579.1| high frequency lysogenization protein HflD [Escherichia coli 88817 (10j)] &gt;tpg|HGY6470820.1| high frequency lysogenization protein HflD [Escherichia coli Nissle 1917]</Hit_def>
+  <Hit_accession>WP_001297479</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>430.254</Hsp_bit-score>
+      <Hsp_score>1105</Hsp_score>
+      <Hsp_evalue>1.68426e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>tpg|HBM9770013.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;tpg|HBM9779444.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;tpg|HBM9855752.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>HBM9770013</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.869</Hsp_bit-score>
+      <Hsp_score>1104</Hsp_score>
+      <Hsp_evalue>2.47285e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLAMAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLA+AGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_137468120.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EFH3958893.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EID2813975.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EJB4950060.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EJC7778213.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|KAA8772235.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_137468120</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.869</Hsp_bit-score>
+      <Hsp_score>1104</Hsp_score>
+      <Hsp_evalue>2.47285e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETMLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLET+LGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>tpg|HBA7836269.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>HBA7836269</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.869</Hsp_bit-score>
+      <Hsp_score>1104</Hsp_score>
+      <Hsp_evalue>2.47285e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETMMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSET+MSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|EED1925862.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EEV4460640.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EFF7773392.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EFK7279433.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EFO7657666.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>EED1925862</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.869</Hsp_bit-score>
+      <Hsp_score>1104</Hsp_score>
+      <Hsp_evalue>2.47285e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTMGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDT+GNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_148048444.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia fergusonii] &gt;gb|EFL4497344.1| high frequency lysogenization protein HflD [Escherichia fergusonii] &gt;gb|EHJ4128118.1| high frequency lysogenization protein HflD [Escherichia fergusonii] &gt;gb|QMB01374.1| high frequency lysogenization protein HflD [Escherichia fergusonii] &gt;gb|QMB10345.1| high frequency lysogenization protein HflD [Escherichia fergusonii] &gt;gb|QMC64250.1| high frequency lysogenization protein HflD [Escherichia fergusonii]</Hit_def>
+  <Hit_accession>WP_148048444</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.869</Hsp_bit-score>
+      <Hsp_score>1104</Hsp_score>
+      <Hsp_evalue>2.47285e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTMAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSST+AVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>tpg|HEE9631818.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>HEE9631818</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.869</Hsp_bit-score>
+      <Hsp_score>1104</Hsp_score>
+      <Hsp_evalue>2.47285e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQMMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQ+MFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|EOC1952302.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>EOC1952302</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.869</Hsp_bit-score>
+      <Hsp_score>1104</Hsp_score>
+      <Hsp_evalue>2.47285e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVMQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAV+QSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_191651471.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|ENS3275936.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MCM2847918.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MDY8262938.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MDY8350322.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;tpg|HAM9402522.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_191651471</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.869</Hsp_bit-score>
+      <Hsp_score>1104</Hsp_score>
+      <Hsp_evalue>2.47285e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRMQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGR+QLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_112933755.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EPC6767952.1| high frequency lysogenization protein HflD [Escherichia coli O80:H19] &gt;gb|EET5594872.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MCA7283603.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MCH0613299.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MCX3664630.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_112933755</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>2.94743e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQITGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQ+TGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_171876543.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|ENF3277787.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MGS3315657.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;tpg|HAM8772838.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;tpg|HBN7148560.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_171876543</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>2.94743e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYIDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIY+DVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|EOK0759292.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>EOK0759292</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>2.94743e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAIFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLA+FGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_089587496.1|</Hit_id>
+  <Hit_def>MULTISPECIES: high frequency lysogenization protein HflD [Escherichia] &gt;gb|EEU3614917.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EFE7155034.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EFE8312348.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EFE8346118.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EHU9725624.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_089587496</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>2.94743e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAILQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPA+LQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_206294243.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EIN1276755.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EOK3424212.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EOT9020154.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MBN6320621.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MDQ9244611.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_206294243</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>2.94743e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQIGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQ+GGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_134274943.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EHT1097119.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EKY9383530.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EOD1525671.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EOX1158226.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MWM68058.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_134274943</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>2.94743e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRIGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLR+GLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_213847346.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|ENT7476403.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EOT9373679.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EPB8683924.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MBS9577238.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MFG3849262.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_213847346</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>2.94743e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKIRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAK+RATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>tpg|HCK1316873.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>HCK1316873</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>3.04606e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLIGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETL+GVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>tpg|HCJ4714612.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>HCJ4714612</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>3.04606e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQIIAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQI+AHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>tpg|HIA8414898.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>HIA8414898</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>3.04606e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTISLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYT+SLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|ENF85623.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein hflD [Escherichia coli P0305260.11]</Hit_def>
+  <Hit_accession>ENF85623</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>3.04606e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITIALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDIT+ALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|ENS1640140.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|ENU0116009.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>ENS1640140</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>3.04606e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGAIDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGA+DTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_113387754.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|RBL51592.1| lysogenization regulator HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_113387754</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>3.04606e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAEITRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAE+TRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|EJQ0212620.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EKB2926717.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EKI7622538.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|ENJ8408105.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>EJQ0212620</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>3.04606e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVIWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAV+WHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|MBI1024655.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;tpg|HCN9385498.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>MBI1024655</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>3.04606e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVIERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMV+ERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_001378856.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EGW84407.1| hypothetical protein ECSTEC94C_1345 [Escherichia coli STEC_94C] &gt;gb|EFA4434830.1| lysogenization regulator HflD [Escherichia coli] &gt;gb|EFL0248289.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EFL5834008.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EFL9438613.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_001378856</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>3.04606e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHITPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAH+TPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_234631021.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MCE9742729.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MCE9747364.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MCE9751976.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MCE9768268.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MCE9770043.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_234631021</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>3.39932e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSVIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNS+IDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_097481807.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MBY7176839.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MBY7252290.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MBY7267345.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MBY7372190.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MBY7393977.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_097481807</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>3.39932e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVVSPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDV+SPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_047402492.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EOW5875404.1| high frequency lysogenization protein HflD [Escherichia coli H32] &gt;gb|ARE49869.1| lysogenization protein HflD [Escherichia coli C] &gt;gb|ATU37226.1| lysogenization protein HflD [Escherichia coli] &gt;gb|EAB6125862.1| lysogenization protein HflD [Escherichia coli] &gt;gb|EEW1534567.1| lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_047402492</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>3.39932e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGVCQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAG+CQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>tpg|HHL5879145.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>HHL5879145</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>3.39932e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRVNGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNR+NGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_097402557.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|ELH7472196.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|ELO4293632.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EON5917387.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MCA7592245.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MFX0699292.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_097402557</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>3.39932e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAVYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAA+YVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|EOJ6481238.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>EOJ6481238</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>4.1416e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDVQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFD+QSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|EEZ3182323.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>EEZ3182323</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>4.1416e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGVNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQG+NAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|MDN0784375.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;tpg|HHY5890998.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>MDN0784375</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>4.1416e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAEVTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAE+TRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_272434493.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MDC3509349.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_272434493</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>4.1416e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITVALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDIT+ALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_078205889.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_078205889</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>4.1416e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQVEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQ+EHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|EIJ7223028.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>EIJ7223028</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>4.1416e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARVVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSAR+VQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_001382350.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EAB7522519.1| lysogenization protein HflD [Escherichia coli] &gt;gb|EEW3500243.1| lysogenization protein HflD [Escherichia coli] &gt;gb|EEZ6919236.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EFC4521993.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EFG1676325.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_001382350</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>4.1416e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPVGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISP+GPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>tpg|HIA7337873.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>HIA7337873</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>4.1416e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKVSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERK+SSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_261564375.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EOK0247510.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EPC0207042.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EPR9831262.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MDD8703594.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MDY9683876.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_261564375</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>4.47224e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MSKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>M+KNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_042973651.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EJW4410123.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EOU9002483.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|KHJ16080.1| lysogenization regulator [Escherichia coli] &gt;gb|MCO7955197.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_042973651</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>4.47224e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRSTLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVR+TLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_046083224.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia fergusonii] &gt;gb|KWW08959.1| lysogenization protein HflD [Escherichia fergusonii] &gt;gb|QMF34035.1| high frequency lysogenization protein HflD [Escherichia fergusonii] &gt;gb|QML18538.1| high frequency lysogenization protein HflD [Escherichia fergusonii]</Hit_def>
+  <Hit_accession>WP_046083224</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>4.47224e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMSAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAM+AIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_144314166.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EHK0774643.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EHK2975184.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EIG6748848.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EIH0104514.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|ENE5976848.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_144314166</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>4.47224e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRSAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIR+AVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_231227859.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;tpg|HDQ6483149.1| high frequency lysogenization protein HflD [Escherichia coli O87:H16] &gt;gb|EER3793518.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EET4313249.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EET5748244.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|EEZ6725037.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_231227859</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>4.47224e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSSMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMS+MAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>tpg|HHY7579324.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>HHY7579324</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>4.47224e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQSKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQ+KVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|EFH9362950.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>EFH9362950</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>4.47224e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDSDALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCD+DALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|EKT1593456.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;tpg|HCN6463871.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;tpg|HDD9928405.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>EKT1593456</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>4.47224e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNSSSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLN+SSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_241223061.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MCH7129866.1| lysogenization regulator HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_241223061</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>4.47224e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSESNLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSE+NLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|MBZ9187276.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli] &gt;gb|MBZ9192119.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;tpg|HFP3574960.1| high frequency lysogenization protein HflD [Escherichia coli] &gt;tpg|HHF8098232.1| high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>MBZ9187276</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>4.47224e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLSGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLL+GIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>tpg|HFI2580069.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Escherichia coli]</Hit_def>
+  <Hit_accession>HFI2580069</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>4.47224e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSSRLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQS+RLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>tpg|HHO0196322.1|</Hit_id>
+  <Hit_def>high frequency lysogenization protein HflD [Shigella flexneri]</Hit_def>
+  <Hit_accession>HHO0196322</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>4.47224e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MAKNYYDITLALAGICQSARLVQQLAHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_qseq>
+      <Hsp_hseq>MAKNYYDITLALAGICQSARLVQQLSHQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_hseq>
+      <Hsp_midline>MAKNYYDITLALAGICQSARLVQQL+HQGHCDADALHVSLNSIIDMNPSSTLAVFGGSEANLRVGLETLLGVLNASSRQGLNAELTRYTLSLMVLERKLSSAKGALDTLGNRINGLQRQLEHFDLQSETLMSAMAAIYVDVISPLGPRIQVTGSPAVLQSPQVQAKVRATLLAGIRAAVLWHQVGGGRLQLMFSRNRLTTQAKQILAHLTPEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>992672285</Statistics_db-num>
+      <Statistics_db-len>377385951225</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

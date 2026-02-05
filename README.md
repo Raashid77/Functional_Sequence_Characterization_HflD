@@ -1,4 +1,4 @@
-# Functional_Sequence_Characterization_HflD
+# In Silico Functional Characterization of the HflD Protein Regulating Bacteriophage Lysogenization
 Bioinformatics pipeline for sequence quality analysis, homology-based annotation, and biological interpretation of the HflD protein involved in bacteriophage lysogenization.
 
 BLASTp homology analysis revealed a large number of highly significant matches. 
